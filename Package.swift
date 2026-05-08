@@ -8,12 +8,10 @@ let package = Package(
         .library(name: "SRUI", targets: ["SRUI"]),
     ],
     dependencies: [
-        .package(path: "../SRCore"),
     ],
     targets: [
         .target(
-            name: "SRUI",
-            dependencies: ["SRCore"]
+            name: "SRUI"
         ),
     ]
 )
